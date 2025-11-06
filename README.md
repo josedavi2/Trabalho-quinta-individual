@@ -72,20 +72,18 @@ O sistema permite:
 
 ```sql
 CREATE TABLE clientes (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  nome VARCHAR(100) NOT NULL,
-  email VARCHAR(100) NOT NULL,
-  telefone VARCHAR(20),
-  endereco VARCHAR(255)
+  id int AUTO_INCREMENT PRIMARY KEY,
+  cliente VARCHAR(150) NOT NULL,
+  cidade VARCHAR(150),
+  estado VARCHAR(50)
 );
 
 CREATE TABLE faleconosco (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  nome VARCHAR(100) NOT NULL,
-  email VARCHAR(100) NOT NULL,
-  assunto VARCHAR(150),
-  mensagem TEXT NOT NULL,
-  data_envio TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+  id int AUTO_INCREMENT PRIMARY KEY,
+  assunto VARCHAR(30),
+  nome VARCHAR(150) NOT NULL,
+  email VARCHAR(150),
+  mensagem VARCHAR(50)
 );
 ```
 
@@ -96,7 +94,7 @@ CREATE TABLE faleconosco (
 1. Copie a pasta do projeto para o diretório:
    - `htdocs` (XAMPP)
 2. Cria uma pasta ou adicione o projeto a uma pasta existente
-3. Importe o arquivo **banco_de_dados.sql** no **phpMyAdmin**.
+3. Importe o arquivo **projeto_1.sql** no **phpMyAdmin**.
 4. Edite o arquivo **config.inc.php** se necessário:
    ```php
    $conexao = mysqli_connect("localhost:", "root", "");
