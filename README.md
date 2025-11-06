@@ -78,7 +78,7 @@ CREATE TABLE clientes (
   estado VARCHAR(50)
 );
 
-CREATE TABLE faleconosco (
+CREATE TABLE contatos (
   id int AUTO_INCREMENT PRIMARY KEY,
   assunto VARCHAR(30),
   nome VARCHAR(150) NOT NULL,
