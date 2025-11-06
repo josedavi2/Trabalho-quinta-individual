@@ -10,9 +10,9 @@ O sistema permite:
 ---
 
 ## Tecnologias Utilizadas
-- **PHP 8+**
+- **PHP**
 - **MySQL (MySQLi)**
-- **HTML5 / CSS3**
+- **HTML / CSS**
 - **XAMPP(ambiente local)**
 
 ---
