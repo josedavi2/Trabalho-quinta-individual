@@ -22,22 +22,24 @@ O sistema permite:
 ```
 /projeto_1/
 │
-├── conexao.php
+├── config.inc.php
 ├── index.php
 │
 ├── clientes/
-│   ├── cadastrar.php
-│   ├── editar.php
-│   ├── excluir.php
-│   ├── listar.php
+│   ├── clientes-admin.php
+│   ├── clientes-cadastro.php
+│   ├── clientes-altera.php
+│   ├── clientes-form-altera.php
+│   ├── clientes-excluir.php
 │
 ├── faleconosco/
-│   ├── cadastrar.php
-│   ├── editar.php
-│   ├── excluir.php
-│   ├── listar.php
+│   ├── contato-admin.php
+│   ├── contato-cadastro.php
+│   ├── contato-altera.php
+│   ├── contato-form-altera.php
+│   ├── contato-excluir.php
 │
-└── banco_de_dados.sql
+└── projeto_1.sql
 ```
 
 > A pasta `clientes` contém o CRUD de clientes desenvolvido em aula, e `faleconosco` contém o novo CRUD de mensagens.
